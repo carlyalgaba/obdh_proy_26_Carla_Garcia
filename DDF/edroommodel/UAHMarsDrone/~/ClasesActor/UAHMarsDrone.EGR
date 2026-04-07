@@ -34,24 +34,7 @@ Timer
 EDROOMTimingSAP
 [FinPuertos]
 [ActoresComponente]
-2
-[Version Actor Componente]
-2
-TCManager
 1
-0
--1
-10
-7
-EDROOMprioNormal
-
-[Version Grafico Actor Componente]
-0
-21.4844
-22.3819
-47.0703
-44.1478
-CCRCManager
 [Version Actor Componente]
 2
 DroneMng
@@ -71,15 +54,7 @@ EDROOMprioNormal
 CCDroneMng
 [FinActoresComponente]
 [Uniones]
-1
-[Version Union]
 0
-Union
-1
-DroneMngCtrl
-DroneMngCtrl
-DroneMng
-TCManager
 [FinUniones]
 [NumTimers]
 2

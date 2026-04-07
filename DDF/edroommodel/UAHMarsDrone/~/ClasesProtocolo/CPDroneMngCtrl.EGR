@@ -29,7 +29,7 @@ CDDroneConfig
 C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DDF\edroommodel\UAHMarsDrone\
 es.uah.aut.srg.edroom.mclev.data_sai.cddroneconfig
 v1
-0
+1
 1
 [Version Mensaje]
 1
@@ -42,5 +42,6 @@ NULL
 C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DDF\edroommodel\UAHMarsDrone\
 es.uah.aut.srg.edroom.mclev.data_sai.NULL
 v1
-0
+2
+SDroneSetUp
 0
