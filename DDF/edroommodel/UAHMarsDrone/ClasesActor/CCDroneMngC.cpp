@@ -149,7 +149,7 @@ void	CCDroneMng::EDROOM_CTX_Top_0::FProgNextCtrl()
 	//time.Add(X,Y); // Add X sec + Y microsec
  
 VNextCtrl+= Pr_Time(0,100000); // Add X sec + Y microsec
-time=VNextCtrl
+time=VNextCtrl;
    //Program absolute timer 
    DroneTimer.InformAt( time ); 
 }
