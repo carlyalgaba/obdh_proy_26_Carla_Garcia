@@ -266,7 +266,7 @@ true
 0
 111 123 147 176 0
 [FinGraficoTransicion]
-
+transicion
 SelfTest
 OSubEst
 Ready
@@ -357,9 +357,9 @@ FDroneSelfTest()
 1
 
 3
-void FDroneSelfTest(){
+
 pus_service129_drone_selftest();
-}
+
 MsgDataHandler
 FGetConfig()
 0
@@ -427,9 +427,9 @@ GFlightPlanDone()
 1
 
 3
-bool GFlightPlanDone(){
+
 return pus_service129_flight_plan_done();
-}
+
 BasicAction
 FToReady()
 0
@@ -439,9 +439,9 @@ FToReady()
 1
 
 3
-void FToReady(){
+
 pus_service129_drone_ready();
-}
+
 Guard
 GExecFlightPlan()
 0
@@ -451,9 +451,9 @@ GExecFlightPlan()
 1
 
 3
-bool GExecFlightPlan(){
+
 return pus_service129_flight_plan_ready();
-}
+
 Inform
 FInitFlightPlan()
 0
@@ -511,9 +511,9 @@ FFlightCtrlAlgorithm()
 1
 
 3
-void FFlightCtrlAlgorithm(){
+
 pus_service129_flight_ctrl_algorithm();
-}
+
 [MaquinasSubEstados]
 0
 [FinMaquinasSubEstados]
