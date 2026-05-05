@@ -4,7 +4,7 @@
 [Version]
 3
 [Nombre Modelo]
-UT_CCDroneMng
+UAH_ASW
 [Modificado]
 0
 [Opciones Modelo]
@@ -19,13 +19,13 @@ UT_CCDroneMng
 [CurrentTarget]
 0
 [MESP Directory]
-C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DJF\UTs\ut_ccdronemng_freertos\asw
+C:\Users\USUARIO\Documents\GitHub\Carla_Garcia_Datos\Prac5\asw_pus_rtems_5_0_leon3_st05_st12\asw
 [MESP main Directory]
-C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DJF\UTs\ut_ccdronemng_freertos
+C:\Users\USUARIO\Documents\GitHub\Carla_Garcia_Datos\Prac5\asw_pus_rtems_5_0_leon3_st05_st12
 [MESP main prototype]
-int main (void)
+extern "C" rtems_task Init (uint32_t arg)
 [MESP main return]
-return 0;
+;
 [Dyn Priority]
 0
 [Main Cmp Priority]
@@ -60,7 +60,7 @@ EDROOMTarget
 [Version]
 2
 DUMMY_MESCC_Lib
-3
+5
 [ActorDeployment]
 [Version]
 1
@@ -69,52 +69,8 @@ MainActor
 10
 EDROOMprioNormal
  
-UT_CCDroneMng
+UAH_ASW
 NULL
-[EventsDeployment]
-2
-[EventDeployment]
-[Version]
-1
-EvTimerUTTimerCtrl
-Timer
-1
-1
-0
-0
-[CEgRoomDeadLine]
-[Version]
-1
--1
--1
-0
-0
-[EventDeployment]
-[Version]
-1
-EvTimerWatchDogTimer
-Timer
-2
-1
-0
-0
-[CEgRoomDeadLine]
-[Version]
-1
--1
--1
-0
-0
-[ActorDeployment]
-[Version]
-1
-DroneMngTester
-2
-10
-EDROOMprioNormal
- 
-CCDroneMngTester
-UT_CCDroneMng
 [EventsDeployment]
 1
 [EventDeployment]
@@ -122,6 +78,62 @@ UT_CCDroneMng
 1
 EvTimerTimer
 Timer
+1
+1
+0
+0
+[CEgRoomDeadLine]
+[Version]
+1
+-1
+-1
+0
+0
+[ActorDeployment]
+[Version]
+1
+TCManager
+2
+10
+EDROOMprioHigh
+ 
+CCTCManager
+UAH_ASW
+[EventsDeployment]
+1
+[EventDeployment]
+[Version]
+1
+EvIRQRxTC
+External
+2
+1
+0
+0
+[CEgRoomDeadLine]
+[Version]
+1
+-1
+-1
+0
+0
+[ActorDeployment]
+[Version]
+1
+HK_FDIRMng
+3
+10
+EDROOMprioNormal
+ 
+CCHK_FDIRMng
+UAH_ASW
+[EventsDeployment]
+1
+[EventDeployment]
+[Version]
+1
+EvTimerHK_FDIRTimer
+Timer
 3
 1
 0
@@ -136,13 +148,25 @@ Timer
 [ActorDeployment]
 [Version]
 1
+BKGTCExec
+4
+10
+EDROOMprioNormal
+ 
+CCBKGTCExec
+UAH_ASW
+[EventsDeployment]
+0
+[ActorDeployment]
+[Version]
+1
 DroneMng
-3
+5
 10
 EDROOMprioNormal
  
 CCDroneMng
-UT_CCDroneMng
+UAH_ASW
 [EventsDeployment]
 1
 [EventDeployment]
