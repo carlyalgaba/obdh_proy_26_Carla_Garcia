@@ -19,9 +19,9 @@ UAH_ASW
 [CurrentTarget]
 0
 [MESP Directory]
-C:\Users\USUARIO\Documents\GitHub\Carla_Garcia_Datos\Prac5\asw_pus_rtems_5_0_leon3_st05_st12\asw
+C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DJF\ITs\it_asw_ccdronemng_freertos_hito3\asw
 [MESP main Directory]
-C:\Users\USUARIO\Documents\GitHub\Carla_Garcia_Datos\Prac5\asw_pus_rtems_5_0_leon3_st05_st12
+C:\Users\USUARIO\Documents\GitHub\obdh_proy_26_Carla_Garcia\DJF\ITs\it_asw_ccdronemng_freertos_hito3
 [MESP main prototype]
 extern "C" rtems_task Init (uint32_t arg)
 [MESP main return]
