@@ -504,7 +504,7 @@ FFwdDroneTC()
 	
 		// Complete Data 
 	
-	*pSDroneTC_Data=VCurrentTC
+	*pSDroneTC_Data=VCurrentTC;
 	
 		// Complete Data 
 	
