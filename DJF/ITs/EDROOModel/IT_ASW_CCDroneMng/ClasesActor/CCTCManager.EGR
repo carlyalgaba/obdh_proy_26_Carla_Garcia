@@ -318,9 +318,9 @@ GFwdDroneTC()
 Ready
 DSubEst
 ;
+
  
- 
- 
+
 ;
 FFwdDroneTC();
 ;
@@ -500,7 +500,11 @@ FFwdDroneTC()
 0
 1
  
-5
+9
+	
+		// Complete Data 
+	
+	*pSDroneTC_Data=VCurrentTC
 	
 		// Complete Data 
 	

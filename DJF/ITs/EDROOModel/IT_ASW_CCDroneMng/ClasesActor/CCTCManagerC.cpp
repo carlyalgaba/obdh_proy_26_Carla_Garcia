@@ -119,6 +119,10 @@ void	CCTCManager::EDROOM_CTX_Top_0::FFwdDroneTC()
 	
 		// Complete Data 
 	
+	*pSDroneTC_Data=VCurrentTC
+	
+		// Complete Data 
+	
  
  
    //Send message 
